@@ -1,0 +1,26 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: #222;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+#progress {
+    width: 80%;
+    height: 30px;
+    background: #444;
+    margin: 30px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px #000;
+}
+
+#bar {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, #f90, #fc0, #fff700);
+    border-radius: 8px 0 0 8px;
+    transition: width 0.1s;
+}
